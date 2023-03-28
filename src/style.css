@@ -41,8 +41,6 @@ input:focus {
   border-radius: 5px;
   cursor: pointer;
   border: none;
-  grid-column: auto;
-  grid-row: auto;
 }
 
 .button:hover {
