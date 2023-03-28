@@ -4,11 +4,11 @@ body {
 }
 
 .calculator {
-  width: 50vw;
+  width: 35vw;
   margin: 12vh auto;
-  background-color: #e6e1e1;
-  border-radius: 10px;
-  padding: 4px;
+  background-color: #d4cfcf;
+  border-radius: 3px;
+  padding: 2px 4px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2px;
@@ -16,13 +16,14 @@ body {
 
 .input {
   grid-column: 1 / span 4;
-  background-color: #646161;
+  background-color: #6b6974;
   font-size: 26px;
   color: white;
   padding: 20px 5px;
-  border-radius: 5px;
-  height: 20%;
+  border-radius: 2px;
+  height: 30%;
   border: none;
+  margin-bottom: -14px;
 }
 
 input:focus {
@@ -37,14 +38,14 @@ input:focus {
 .button {
   height: 10vh;
   font-size: 1.5rem;
-  background-color: #eee;
-  border-radius: 5px;
+  background-color: #e6dfdf;
+  border-radius: 2px;
   cursor: pointer;
   border: none;
 }
 
 .button:hover {
-  background-color: #ccc;
+  background-color: #faf5f5;
 }
 
 .button:active {
