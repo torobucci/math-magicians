@@ -65,7 +65,7 @@
 ### Key Features <a name="key-features"></a>
 
 - [ ] **Project set up**
-- [ ] **Display Calculator**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
