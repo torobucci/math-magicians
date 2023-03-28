@@ -53,8 +53,7 @@ input:focus {
 }
 
 .button.operator {
-  background-color: #f2a05c;
-  color: #fff;
+  background-color: #ee9954;
 }
 
 .button.operator:hover {
