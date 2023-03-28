@@ -1,8 +1,3 @@
-<a name="readme-top"></a>
-
-
-<h1 text-align="center"><b>Math Magicians</b></h1>
-
 
 <!-- TABLE OF CONTENTS -->
 
@@ -12,20 +7,17 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -67,16 +59,6 @@
 - [ ] **Project set up**
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-     **Coming soon**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -100,19 +82,21 @@ Clone this repository to your desired folder:
 
 
 ### Install
-To install linter run the following command:
+To install run the following command:
 
-`npm install --save-dev hint@7.x `
+`npm install `
 
 ### Usage
 
-To run the project click the run button on your VScode.
+To start the project run the following command:
+
+`npm start `
 
 ### Run tests
 
 To run tests, run the following command:
 
-`npx stylelint "**/*.{css,scss}"`    
+`npm test`    
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
