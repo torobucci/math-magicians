@@ -25,7 +25,7 @@
 # 📖 **Math Magicians** <a name="about-project">
 </a>
 
-**Leaderboard**  is a react single web page application that displays a calculator and that can be used by users to perform simple calculations
+**Math Magicians**  is a react single web page application that displays a calculator and that can be used by users to perform simple calculations
 
 ## 🛠 Built With <a name="built-with">
     Html
