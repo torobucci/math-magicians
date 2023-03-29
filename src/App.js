@@ -1,9 +1,9 @@
-import Calculator from './components/Calculator'; /* disable */
+import DisplayCalculator from './components/DisplayCalculator';
 
 function App() {
   return (
     <div className="app">
-      <Calculator />
+      <DisplayCalculator />
     </div>
   );
 }

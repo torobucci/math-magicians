@@ -1,6 +1,6 @@
 import Buttons from './Buttons';
 
-function Calculator() {
+function DisplayCalculator() {
   return (
     <div className="calculator">
       <input type="text" placeholder="0" className="input" />
@@ -8,4 +8,4 @@ function Calculator() {
     </div>
   );
 }
-export default Calculator;
+export default DisplayCalculator;
