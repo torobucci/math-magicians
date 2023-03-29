@@ -1,9 +1,9 @@
-import DisplayCalculator from './components/DisplayCalculator';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
     <div className="app">
-      <DisplayCalculator />
+      <Calculator />
     </div>
   );
 }
