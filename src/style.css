@@ -1,11 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/janda-shine-your-on-us');
+
 body {
   font-family: Arial, sans-serif;
   background-color: #928d8d;
+  margin: 0;
 }
 
 .calculator {
   width: 35vw;
-  margin: 12vh auto;
+  margin: 4vh auto;
   background-color: #d4cfcf;
   border-radius: 3px;
   padding: 2px 4px;
@@ -24,6 +27,7 @@ body {
   height: 30%;
   border: none;
   margin-bottom: -14px;
+  text-align: right;
 }
 
 input:focus {
@@ -70,4 +74,55 @@ input:focus {
 
 .button.equals {
   grid-row: span 2;
+}
+
+.message {
+  margin: 20px;
+  width: 30vw;
+  display: inline-block;
+  position: relative;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.message::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 17px solid #f0f0f0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  top: -3px;
+  left: -8px;
+  transform: rotate(15deg);
+}
+
+.message h2 {
+  font-family: 'Janda Shine Your Light On Us', sans-serif;
+  margin: 0 10px;
+  font-size: 30px;
+}
+
+.message p {
+  margin: 0;
+}
+
+.quote cite {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.errr {
+  color: red;
+}
+
+.loading {
+  color: #ff7200;
+  font-size: 30px;
 }
