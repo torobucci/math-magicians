@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 8vh 2vw;
+  padding: 0.5rem;
+}
+
+.container h2 {
+  font-family: 'Easter Rabbits', sans-serif;
+  font-size: 1.5rem;
+}
