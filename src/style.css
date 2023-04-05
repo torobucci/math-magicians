@@ -1,4 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/janda-shine-your-on-us');
+@import url('https://fonts.cdnfonts.com/css/easter-rabbits');
+@import url('https://fonts.cdnfonts.com/css/whois');
 
 body {
   font-family: Arial, sans-serif;
@@ -8,7 +10,6 @@ body {
 
 .calculator {
   width: 35vw;
-  margin: 4vh auto;
   background-color: #d4cfcf;
   border-radius: 3px;
   padding: 2px 4px;
@@ -76,12 +77,24 @@ input:focus {
   grid-row: span 2;
 }
 
+.quote {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote h1 {
+  font-family: 'Easter Rabbits', sans-serif;
+  font-size: 2rem;
+}
+
 .message {
-  margin: 20px;
-  width: 30vw;
+  width: 80vw;
   display: inline-block;
   position: relative;
-  padding: 0 10px;
+  padding: 10px 20px;
   border-radius: 20px;
   background-color: #f0f0f0;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
@@ -108,6 +121,8 @@ input:focus {
 
 .message p {
   margin: 0;
+  font-family: 'Whois', sans-serif;
+  font-size: 1.6rem;
 }
 
 .quote cite {

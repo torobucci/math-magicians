@@ -1,0 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/easter-rabbits');
+
+.container {
+  margin-left: 2.5vw;
+  font-family: 'Whois', sans-serif;
+  font-size: 1.8rem;
+}
+
+.header {
+  font-family: 'Easter Rabbits', sans-serif;
+  font-size: 2rem;
+}

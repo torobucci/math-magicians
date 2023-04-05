@@ -36,9 +36,10 @@ function DisplayQuote() {
       {isLoading ? (
         <p className="loading">Loading ...</p>
       ) : (
-        <div className="quote-container">
+        <>
           {data.map((item) => (
             <div className="quote" key="quote">
+              <h1>Quote of the Day</h1>
               <div className="message">
                 <h2>Life</h2>
                 <p>{item.quote}</p>
@@ -49,8 +50,9 @@ function DisplayQuote() {
               </div>
             </div>
           ))}
-        </div>
+        </>
       )}
+
     </>
   );
 }
