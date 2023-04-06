@@ -109,6 +109,11 @@ To run tests, run the following command:
 - Twitter: [@torobucii](https://twitter.com/@torobucii)
 - LinkedIn: [Kevin Toro](https://linkedin.com/in/KevinToro)
 
+## 👤 Ada Rachel
+
+- GitHub: [@githubhandle](https://github.com/adarachel)
+- Twitter: [@twitterhandle](https://twitter.com/adarachel_dev)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adarachel/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
